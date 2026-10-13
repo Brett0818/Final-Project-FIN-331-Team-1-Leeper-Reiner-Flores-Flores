@@ -31,7 +31,7 @@ A **WACC card**: one page, in our app, showing the WACC and every input behind i
 |---|---|---|---|---|
 | CEO | Brett Leeper | bcl227 | `main` (reviews and merges) | this README, reviewing every pull request |
 | Developer | Becker Reiner | BER328 | `dev-wacc` | `code/wacc.py` |
-| Product manager | Fernado Flores | FFLORES27 | `pm-app` | `app.py` |
+| Product manager | Fernado Flores-Flores | FFlores27 | `pm-app` | `app.py` |
 | Analyst | Brett Leeper | bcl227 | `analyst-inputs` | `inputs/assumptions.csv` (every number has a source) |
 
 _Team of 3? The CEO is also the analyst._
