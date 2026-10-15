@@ -1,7 +1,8 @@
 item,value,source
-rf,0.04,"TODO (analyst): e.g. the 10-year Treasury yield on FRED (DGS10) as of a date you name"
-mrp,0.05,"TODO (analyst): market risk premium; say where it comes from and why"
-rd,0.055,"TODO (analyst): pre-tax cost of debt; e.g. yield on the firm's bonds or interest expense / total debt"
-tax,0.21,"TODO (analyst): tax rate; statutory or effective (income tax expense / pretax income)"
-w_e,0.70,"TODO (analyst): market cap / (market cap + total debt)"
-w_d,0.30,"TODO (analyst): total debt / (market cap + total debt)"
+rf,0.0522,"FRED DGS10: 10-year Treasury constant-maturity yield, 5.22% on 2026-10-08"
+mrp,0.0420,"Aswath Damodaran, implied U.S. ERP, trailing-12-month adjusted-payout method, 4.20% on 2026-10-01"
+rd,0.042949,"Caterpillar 2025 Form 10-K: ($1.359B Financial Products interest expense + $0.502B other interest expense) / $43.330B total debt"
+tax,0.239841,"Caterpillar 2025 Form 10-K: $2.768B provision for income taxes / $11.541B consolidated profit before taxes"
+w_e,0.894649,"CAT market cap of $367.96B on 2026-10-09 (YCharts) / ($367.96B + $43.330B Caterpillar 2025 total debt)"
+w_d,0.105351,"Caterpillar 2025 total debt of $43.330B / ($367.96B CAT market cap on 2026-10-09 + $43.330B debt)"
+
